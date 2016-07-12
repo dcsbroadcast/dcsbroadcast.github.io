@@ -89,5 +89,5 @@ $(document).ready(function() {
     });
 
     //setup_jwplayer("#wrapper", "broadcasttest.duckdns.org", "broadcast", "broadcast");
-    setup_jwplayer("#wrapper", "mikedev.xyz", "broadcast", "broadcast");
+    setup_jwplayer("#wrapper", "mikedev.xyz:443", "broadcast", "broadcast");
 });
