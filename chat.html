@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>bbb-video-stream-html-client</title>
+
+    <link href="chat.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/strophe/strophejs/master/strophe.min.js"></script>
+
+    <script type="text/javascript" src="jw-player/jwplayer.js"></script>
+
+    <script type="text/javascript" src="chat.js"></script>
+    <script type="text/javascript" src="xmpp.js"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-9">
+          <div id="content"></div>
+        </div>
+        <div class="col-lg-3">
+          <div id="messages" class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title"><h4 class="text-center">dcsbroadcast</h4>
+            </div>
+            <div class="panel-body">
+              <ul id="messageList" class="list-unstyled"></ul>
+            </div>
+            <div class="panel-footer">
+              <form>
+                <div class="form-group">
+                  <textarea id="messageInput" class="form-control" rows="2"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
