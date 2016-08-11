@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         // TODO: for now assuming we will never have bigger resolutions...
         var width = 1280; // stream.substring(0, 3);
-        var height = 824; // stream.substring(4, 7);
+        var height = 890; // stream.substring(4, 7);
 
         setup_clear(wrapper, width, height);
 
@@ -47,7 +47,7 @@ $(document).ready(function() {
 
         // TODO: for now assuming we will never have bigger resolutions...
         var width = 1280; //stream.substring(0, 3);
-        var height = 824; // stream.substring(4, 7);
+        var height = 890; // stream.substring(4, 7);
 
         setup_clear(wrapper, width, height);
 
